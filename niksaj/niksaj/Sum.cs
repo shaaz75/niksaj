@@ -7,9 +7,11 @@ namespace niksaj
 {
     public class Sum
     {
-        public int Add(int first, int second)
+
+        public   string Add(int first,int second)
         {
-            return first + second;
+            return (first + second).ToString();
         }
     }
 }
+
